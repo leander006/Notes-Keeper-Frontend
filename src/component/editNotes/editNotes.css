@@ -1,0 +1,91 @@
+.edit{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    padding: 20px 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.upperPart{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lowerPart{
+    display: flex;
+    flex-direction: column;
+
+}
+.addtitle{
+   text-align: center;
+    color: rgb(57, 226, 6);
+    margin-bottom: 50px;
+}
+.date{
+    color: rgb(240, 216, 4);
+}
+#delete{
+    margin-right: 20px;
+    color: rgb(11, 156, 252);
+}
+#edit{
+    color: rgb(255, 166, 0);
+}
+
+#delete:hover{
+    color: rgb(145, 211, 255);;
+}
+#edit:hover{
+    color: rgb(255, 211, 130);
+}
+.titleEdit{
+    margin-top: 50px;
+    border-bottom: solid ;
+    border-top:none ;
+    border-right: none ;
+    border-left:  none;
+    text-align: center;
+}
+.descEdit{
+    border-top:none ;
+    border-right: none ;
+    border-bottom: solid ;
+    border-left:  none;
+    margin-top: 50px;
+    
+    
+}
+*:focus {
+    outline: none;
+}
+
+.update{
+    background-color: rgb(197, 0, 223);
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+}
+.update:hover{
+    background-color: rgb(229, 122, 243);
+    border-radius: 20px;
+
+}
+.textEdit{
+    height: 10vh;
+}
+
+
+@media (max-width: 425px){
+ .edit{
+    background-color: rgb(250, 253, 243);
+     flex:none;
+     margin-bottom: 10px;
+     max-height: 40vh;
+     overflow: hidden;
+     overflow-y: scroll;
+     border-radius: 20px;
+ }
+}

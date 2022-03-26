@@ -1,0 +1,29 @@
+
+.not{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    position: relative;
+   
+}
+.not img{
+    width: 70vw;
+    height: 70vh;
+}
+.not h1{
+    position: absolute;
+    
+    color: rgb(91, 105, 9); 
+} 
+
+@media (max-width: 425px){
+    .not img{
+        width: 20vw;
+        height: 20vh;
+    }
+    .not{
+        margin-top: 0;
+       
+    }
+    
+}
